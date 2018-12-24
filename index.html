@@ -1,0 +1,3108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>scene5</title>
+	<style type="text/css">
+	body{
+	background:#000; height: 27000px;}
+
+	/*만화컷*/
+
+	#cut1{position: absolute; width: 1078px; height: 368px; top: 1000px; transform:all 1s; left: 550px;}
+	#cut2{position: absolute; width: 1078px; height: 368px; top: 2000px; transform:all 1s; left: 550px;}
+	#cut3{position: absolute; width: 1078px; height: 368px; top: 2500px; transform:all 1s; left: 550px;}
+	#cut4{position: absolute; width: 1078px; height: 368px; top: 3500px; transform:all 1s; left: 550px;}
+	#cut5{position: absolute; width: 1078px; height: 368px; top: 4500px; transform:all 1s; left: 550px;}
+	#cut6{position: absolute; width: 1078px; height: 368px; top: 5000px; transform:all 1s; left: 550px;}
+	#cut7{position: absolute; width: 1078px; height: 368px; top: 6500px; transform:all 1s; left: 550px;}
+	#cut8{position: absolute; width: 1078px; height: 368px; top: 7500px; transform:all 1s; left: 550px;}
+	#cut9{position: absolute; width: 1078px; height: 368px; top: 9500px; transform:all 1s; left: 550px;}
+	#cut10{position: absolute; width: 1078px; height: 368px; top: 10000px; transform:all 1s; left: 550px;}
+	#cut11{position: absolute; width: 1078px; height: 368px; top: 11000px; transform:all 1s; left: 550px;}
+	#cut12{position: absolute; width: 1078px; height: 368px; top: 12500px; transform:all 1s; left: 550px;}
+	#cut13{position: absolute; width: 1078px; height: 368px; top: 13500px; transform:all 1s; left: 550px;}
+	#cut14{position: absolute; width: 1078px; height: 977px; top: 15500px; transform:all 1s; left: 550px; z-index: -1}
+	#cut15{position: absolute; width: 1078px; height: 977px; top: 15500px; transform:all 1s; left: 550px; z-index: -2}
+	#cut16{position: absolute; width: 1078px; height: 977px; top: 15500px; transform:all 1s; left: 550px; z-index: -3}
+	#cut17{position: absolute; width: 1078px; height: 977px; top: 15500px; transform:all 1s; left: 550px; z-index: -4}
+	#cut18{position: absolute; width: 1078px; height: 977px; top: 15500px; transform:all 1s; left: 550px; z-index: -5}
+	
+
+
+    /*두번째 만화컷*/
+	#cut19{position: absolute; width: 1078px; height:368px; top: 19500px; transform:all 1s; left: 550px;}
+	#cut20{position: absolute; width: 1078px; height:368px; top: 20000px; transform:all 1s; left: 550px;}
+	#cut21{position: absolute; width: 1078px; height:609px; top: 21000px; transform:all 1s; left: 550px;}
+	#cut22{position: absolute; width: 1078px; height:609px; top: 22000px; transform:all 1s; left: 550px;}
+	#cut23{position: absolute; width: 916px; height: 831px; top: 23000px; transform:all 1s; left: 550px;}
+	#cut24{position: absolute; width: 916px; height: 831px; top: 23500px; transform:all 1s; left: 550px;}
+	#cut25{position: absolute; width: 916px; height: 831px; top: 25000px; transform:all 1s; left: 550px;}
+
+
+
+
+
+	/*만화대사컷*/
+	#malmal1{position: absolute; width:750px; height:450px; top: 850px;
+		left: 300px; z-index: 1}
+	#malmal2{position: absolute; width:750px; height:450px; top: 1200px;
+		left: 950px; z-index: 1}
+	#malmal3{position: absolute; width:750px; height:450px; top: 1800px;
+		left: 350px; z-index: 1}
+	#malmal4{position: absolute; width:750px; height:450px; top: 4700px;
+		left: 750px; z-index: 1}
+	#malmal5{position: absolute; width:750px; height:450px; top: 6450px;
+		left: 700px; z-index: 1}
+	#malmal6{position: absolute; width:750px; height:450px; top: 7450px;
+		left: 700px; z-index: 1}
+	#malmal7{position: absolute; width:750px; height:450px; top: 8000px;
+		left: 600px; z-index: 1}
+	#malmal8{position: absolute; width:750px; height:450px; top: 8700px;
+		left: 750px; z-index: 1}
+	#malmal9{position: absolute; width:750px; height:450px; top: 9700px;
+		left: 1050px; z-index: 1}
+	#malmal10{position: absolute; width:750px; height:450px; top: 11700px;
+		left: 750px; z-index: 1}
+	#malmal11{position: absolute; width:750px; height:450px; top: 14400px;
+		left: 750px; z-index: 1}
+    #malmal12{position: absolute; width:750px; height:450px; top: 16000px;
+		left: 750px; z-index: 1}
+ 
+   /*두번째 만화대서*/
+     #malmal13{position: absolute; width:750px; height:450px; top: 18500px;
+		left: 700px; z-index: 1}
+	#malmal14{position: absolute; width:750px; height:450px; top: 21000px;
+		left:850px; z-index: 1}
+	#malmal15{position: absolute; width:750px; height:450px; top: 21750px;
+		left: 450px; z-index: 1}
+	#malmal16{position: absolute; width:750px; height:450px; top: 22250px;
+		left: 1050px; z-index: 1}
+	#malmal17{position: absolute; width:750px; height:450px; top: 22350px;
+		left: 750px; z-index: 1}
+	#malmal18{position: absolute; width:750px; height:450px; top: 22850px;
+		left: 850px; z-index: 1}
+	#malmal19{position: absolute; width:750px; height:450px; top: 23500px;
+		left: 700px; z-index: 1}
+
+    #malmal20{position: absolute; width:750px; height:450px; top: 25200px;
+		left:450px; z-index: 1}
+
+
+		
+
+	</style>
+</head>
+<body>
+
+<img id = "cut1" src="./image/마지막1.png">
+<img id = "cut2" src="./image/마지막2.png">
+<img id = "cut3" src="./image/마지막3.png">
+<img id = "cut4" src="./image/마지막4.png">
+<img id = "cut5" src="./image/마지막5.png">
+<img id = "cut6" src="./image/마지막6.png">
+<img id = "cut7" src="./image/마지막7.png">
+<img id = "cut8" src="./image/마지막8.png">
+<img id = "cut9" src="./image/마지막9.png">
+<img id = "cut10" src="./image/마지막10.png">
+<img id = "cut11" src="./image/마지막11.png">
+<img id = "cut12" src="./image/마지막12.png">
+<img id = "cut13" src="./image/마지막13.png">
+<img id = "cut14" src="./image/마지막14.png">
+<img id = "cut15" src="./image/마지막15.png">
+<img id = "cut16" src="./image/마지막16.png">
+<img id = "cut17" src="./image/마지막17.png">
+<img id = "cut18" src="./image/마지막18.png">
+
+
+<img id = "cut19" src="./image/마지막19.png">
+<img id = "cut20" src="./image/마지막20.png">
+<img id = "cut21" src="./image/마지막21.png">
+<img id = "cut22" src="./image/마지막22.png">
+<img id = "cut23" src="./image/마지막23.png">
+<img id = "cut24" src="./image/마지막24.png">
+<img id = "cut25" src="./image/마지막25.png">
+
+
+<img id = "malmal1" src="./image/대대사1.png">
+<img id = "malmal2" src="./image/대대사2.png">
+<img id = "malmal3" src="./image/대대사3.png">
+<img id = "malmal4" src="./image/대대사4.png">
+<img id = "malmal5" src="./image/대대사5.png">
+<img id = "malmal6" src="./image/대대사6.png">
+<img id = "malmal7" src="./image/대대사7.png">
+<img id = "malmal8" src="./image/대대사8.png">
+<img id = "malmal9" src="./image/대대사9.png">
+<img id = "malmal10" src="./image/대대사10.png">
+<img id = "malmal11" src="./image/대대사11.png">
+<img id = "malmal12" src="./image/대대사12.png">
+<img id = "malmal13" src="./image/대대사13.png">
+<img id = "malmal14" src="./image/대대사14.png">
+<img id = "malmal15" src="./image/대대사15.png">
+<img id = "malmal16" src="./image/대대사16.png">
+<img id = "malmal17" src="./image/대대사17.png">
+<img id = "malmal18" src="./image/대대사18.png">
+<img id = "malmal19" src="./image/대대사19.png">
+<img id = "malmal20" src="./image/대대사20.png">
+
+<script type="text/javascript">
+	
+
+	window.onscroll = function(){
+		var t = document.documentElement.scrollTop + document.body.scrollTop;
+
+
+		if(t < 100){
+			cut1.style.display = "none";
+			cut2.style.display = "none";
+			cut3.style.display = "none";
+			cut4.style.display = "none";
+			cut5.style.display = "none";
+			cut6.style.display = "none";
+			cut7.style.display = "none";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "none";
+			malmal2.style.display = "none";
+			malmal3.style.display = "none";
+			malmal4.style.display = "none";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+		}else if(t < 500){
+			cut1.style.display = "block";
+			cut2.style.display = "none";
+			cut3.style.display = "none";
+			cut4.style.display = "none";
+			cut5.style.display = "none";
+			cut6.style.display = "none";
+			cut7.style.display = "none";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "none";
+			malmal2.style.display = "none";
+			malmal3.style.display = "none";
+			malmal4.style.display = "none";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+	}else if(t < 700){
+			cut1.style.display = "block";
+			cut2.style.display = "none";
+			cut3.style.display = "none";
+			cut4.style.display = "none";
+			cut5.style.display = "none";
+			cut6.style.display = "none";
+			cut7.style.display = "none";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "none";
+			malmal3.style.display = "none";
+			malmal4.style.display = "none";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+	}else if(t < 900){
+			cut1.style.display = "block";
+			cut2.style.display = "none";
+			cut3.style.display = "none";
+			cut4.style.display = "none";
+			cut5.style.display = "none";
+			cut6.style.display = "none";
+			cut7.style.display = "none";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "none";
+			malmal4.style.display = "none";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+	}else if(t < 1200){
+			cut1.style.display = "block";
+			cut2.style.display = "none";
+			cut3.style.display = "none";
+			cut4.style.display = "none";
+			cut5.style.display = "none";
+			cut6.style.display = "none";
+			cut7.style.display = "none";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "none";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 1300){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "none";
+			cut4.style.display = "none";
+			cut5.style.display = "none";
+			cut6.style.display = "none";
+			cut7.style.display = "none";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "none";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+}else if(t < 1400){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "none";
+			cut5.style.display = "none";
+			cut6.style.display = "none";
+			cut7.style.display = "none";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "none";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 2500){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "none";
+			cut5.style.display = "none";
+			cut6.style.display = "none";
+			cut7.style.display = "none";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "none";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+
+}else if(t < 3500){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "none";
+			cut6.style.display = "none";
+			cut7.style.display = "none";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "none";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+}else if(t < 4000){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "none";
+			cut6.style.display = "none";
+			cut7.style.display = "none";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "none";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+
+}else if(t < 4700){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "none";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "none";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 5100){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "none";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+}else if(t < 5300){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "none";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+}else if(t < 6000){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "none";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+
+}else if(t < 6300){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "none";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+}else if(t < 6800){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "none";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 7300){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "none";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 7500){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "none";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+
+}else if(t < 7700){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+}else if(t < 8000){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "none";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 8500){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "none";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+
+}else if(t < 8800){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "none";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+
+
+}else if(t < 8900){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "none";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 9000){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+}else if(t < 9500){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+}else if(t < 10500){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "none";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 11000){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "none";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 12000){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "none";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 13000){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "none";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+
+}else if(t < 13500){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "none";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 14500){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 15000){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "block";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 15200){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "block";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 15400){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "block";
+			cut17.style.display = "none";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 15600){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "block";
+			cut18.style.display = "none";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 15800){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "none";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 16000){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+}else if(t < 17000){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 18000){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "none";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 18300){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 19000){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "none";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 19500){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "none";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 19800){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+}else if(t < 20500){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "none";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 21000){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "none";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 21100){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "none";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "block";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+
+}else if(t < 21400){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "block";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "block";
+			malmal15.style.display = "none";
+			malmal16.style.display = "none";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+
+}else if(t < 21500){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "block";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "block";
+			malmal15.style.display = "block";
+			malmal16.style.display = "block";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 21700){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "block";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "block";
+			malmal15.style.display = "block";
+			malmal16.style.display = "block";
+			malmal17.style.display = "none";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+
+}else if(t < 21800){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "block";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "block";
+			malmal15.style.display = "block";
+			malmal16.style.display = "block";
+			malmal17.style.display = "block";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 22300){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "block";
+			cut23.style.display = "none";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "block";
+			malmal15.style.display = "block";
+			malmal16.style.display = "block";
+			malmal17.style.display = "block";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 22500){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "block";
+			cut23.style.display = "block";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "block";
+			malmal15.style.display = "block";
+			malmal16.style.display = "block";
+			malmal17.style.display = "block";
+			malmal18.style.display = "none";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 22600){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "block";
+			cut23.style.display = "block";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "block";
+			malmal15.style.display = "block";
+			malmal16.style.display = "block";
+			malmal17.style.display = "block";
+			malmal18.style.display = "block";
+			malmal19.style.display = "none";
+			malmal20.style.display = "none";
+
+}else if(t < 22700){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "block";
+			cut23.style.display = "block";
+			cut24.style.display = "none";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "block";
+			malmal15.style.display = "block";
+			malmal16.style.display = "block";
+			malmal17.style.display = "block";
+			malmal18.style.display = "block";
+			malmal19.style.display = "block";
+			malmal20.style.display = "none";
+
+
+}else if(t < 22800){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "block";
+			cut23.style.display = "block";
+			cut24.style.display = "block";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "block";
+			malmal15.style.display = "block";
+			malmal16.style.display = "block";
+			malmal17.style.display = "block";
+			malmal18.style.display = "block";
+			malmal19.style.display = "block";
+			malmal20.style.display = "none";
+}else if(t < 23500){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "block";
+			cut23.style.display = "block";
+			cut24.style.display = "block";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "block";
+			malmal15.style.display = "block";
+			malmal16.style.display = "block";
+			malmal17.style.display = "block";
+			malmal18.style.display = "block";
+			malmal19.style.display = "block";
+			malmal20.style.display = "none";
+
+}else if(t < 24800){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "block";
+			cut23.style.display = "block";
+			cut24.style.display = "block";
+			cut25.style.display = "none";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "block";
+			malmal15.style.display = "block";
+			malmal16.style.display = "block";
+			malmal17.style.display = "block";
+			malmal18.style.display = "block";
+			malmal19.style.display = "block";
+			malmal20.style.display = "none";
+
+}else if(t < 24900){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "block";
+			cut23.style.display = "block";
+			cut24.style.display = "block";
+			cut25.style.display = "block";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "block";
+			malmal15.style.display = "block";
+			malmal16.style.display = "block";
+			malmal17.style.display = "block";
+			malmal18.style.display = "block";
+			malmal19.style.display = "block";
+			malmal20.style.display = "none";
+}else if(t < 25300){
+			cut1.style.display = "block";
+			cut2.style.display = "block";
+			cut3.style.display = "block";
+			cut4.style.display = "block";
+			cut5.style.display = "block";
+			cut6.style.display = "block";
+			cut7.style.display = "block";
+			cut8.style.display = "block";
+			cut9.style.display = "block";
+			cut10.style.display = "block";
+			cut11.style.display = "block";
+			cut12.style.display = "block";
+			cut13.style.display = "block";
+			cut14.style.display = "none";
+			cut15.style.display = "none";
+			cut16.style.display = "none";
+			cut17.style.display = "none";
+			cut18.style.display = "block";
+			cut19.style.display = "block";
+
+			cut20.style.display = "block";
+			cut21.style.display = "block";
+			cut22.style.display = "block";
+			cut23.style.display = "block";
+			cut24.style.display = "block";
+			cut25.style.display = "block";
+
+
+			malmal1.style.display = "block";
+			malmal2.style.display = "block";
+			malmal3.style.display = "block";
+			malmal4.style.display = "block";
+			malmal5.style.display = "block";
+			malmal6.style.display = "block";
+			malmal7.style.display = "block";
+			malmal8.style.display = "block";
+			malmal9.style.display = "block";
+			malmal10.style.display = "block";
+			malmal11.style.display = "block";
+			malmal12.style.display = "block";
+			malmal13.style.display = "block";
+			malmal14.style.display = "block";
+			malmal15.style.display = "block";
+			malmal16.style.display = "block";
+			malmal17.style.display = "block";
+			malmal18.style.display = "block";
+			malmal19.style.display = "block";
+			malmal20.style.display = "block";
+
+
+}
+}
+
+
+</script>
+
+</body>
+</html>
